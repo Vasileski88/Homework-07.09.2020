@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //Напишете функција која враќа количник на два броја. Ако вториот број е 0 потребно е да врати -1 и да испечати грешка
+let x=Number(prompt('Vnesete broj sto ke se deli'))
+let y=Number(prompt('Vnesete broj so koj prviot broj ke se deli'))
+function delenje(x,y){
+      if(y==0){
+        alert("greska")
+        return -1
+      }
+      else{
+        return x/y
+      }
+    }
+    console.log(delenje(x,y))
+  </script>
+</body>
+</html>

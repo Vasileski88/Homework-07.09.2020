@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //Напишете функција за пресметување на факториел на некој број
+    let n=Number(prompt('Vnesete broj koj e pogolem ili ednakov na nula'))
+    if (n<0){
+      console.log("greska")
+    }
+    else function factorial(n){
+    if(n==0){
+        return 1;
+      }
+      else{
+        return n*factorial(n-1);
+      }
+    }
+    console.log(factorial(n))
+  </script>
+</body>
+</html>
